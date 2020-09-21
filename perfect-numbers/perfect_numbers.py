@@ -4,7 +4,7 @@ def classify(number):
 
     aliquotSum = 1
     i = 2
-    
+
     while i**2 < number:
         if not number % i:
             aliquotSum += i + number/i
